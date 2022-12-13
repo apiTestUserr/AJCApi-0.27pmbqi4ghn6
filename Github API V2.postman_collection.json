@@ -16,7 +16,7 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Le status HTTP est OK\", function () {\r",
+									"pm.test(\"Le status HTTP est hhhhhhhhhhh OK\", function () {\r",
 									"    pm.response.to.have.status(200);\r",
 									"});\r",
 									"\r",
@@ -150,7 +150,7 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"La creation d'une repositorie qui existe deja ne s'effectue pas\", function () {\r",
+									"pm.test(\"La creation  qui existe deja ne s'effectue pas\", function () {\r",
 									"\r",
 									"\r",
 									"    var jsonData = pm.response.json();\r",
